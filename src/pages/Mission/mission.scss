@@ -1,0 +1,322 @@
+@use "../../styles/partials/colors" as *;
+@use "../../styles/partials/fonts" as *;
+@use "../../styles/partials/breakpoints" as bkp;
+
+@include bkp.small {
+  .mission {
+    padding: 0 2rem;
+    font-family: "Montserrat";
+
+    &__hero {
+      width: 100%;
+      height: 580px;
+      color: white;
+      padding: 1rem;
+      background-image: linear-gradient(
+          to bottom,
+          rgba(50, 50, 50, 0.8),
+          rgba(50, 50, 50, 0.8)
+        ),
+        url(../../assets//images//missionhero.jpeg);
+      background-position: center;
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+
+      &-numberTitle {
+        display: flex;
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: #c3a109;
+      }
+
+      &-numberText {
+        font-size: 0.7rem;
+      }
+
+      // &-wrap{
+      //     width: 30%;
+      //     padding-left: 5rem;
+      // }
+
+      // &-textWrap{
+      //     width: 55%;
+      // }
+
+      &-title {
+        width: 30%;
+        font-size: 1.5rem;
+        font-weight: 600;
+        padding-bottom: 1rem;
+        margin-bottom: 1.5rem;
+        border-bottom: 3px solid #6d9438;
+      }
+
+      &-text {
+        width: 90%;
+        font-family: "Montserrat";
+        font-size: 0.7rem;
+        line-height: 1.2rem;
+        font-weight: 400;
+      }
+    }
+
+    &__container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 1rem;
+      background-color: #f7f7f8;
+      padding-top: 1rem;
+      margin-top: 0.5rem;
+    }
+
+    &__img {
+      width: 74vw;
+      border-radius: 15px;
+      transition: transform 0.2s;
+
+      &-textWrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: $Mercury;
+
+        margin-top: 1rem;
+        padding: 1rem;
+        border-left: 5px solid #6d9438;
+      }
+
+      &-text {
+        margin: 0 0;
+        font-size: 0.3rem;
+      }
+    }
+
+    &__text {
+      padding-top: 1rem;
+      font-size: 1rem;
+      line-height: 1.5rem;
+    }
+  }
+  .mission__img:hover {
+    transform: scale(1.05);
+  }
+}
+
+@include bkp.medium {
+  .mission {
+    padding: 0 2rem;
+    font-family: "Montserrat";
+
+    &__hero {
+      width: 100%;
+      height: 550px;
+      color: white;
+      padding: 2.5rem;
+      background-image: linear-gradient(
+          to bottom,
+          rgba(50, 50, 50, 0.8),
+          rgba(50, 50, 50, 0.8)
+        ),
+        url(../../assets//images//missionhero.jpeg);
+      background-position: center;
+      background-size: cover;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+
+      &-numberTitle {
+        display: flex;
+        font-size: 2rem;
+        font-weight: 600;
+        color: #c3a109;
+      }
+
+      &-numberText {
+        font-size: 1rem;
+      }
+
+      &-wrap {
+        width: 50%;
+        padding-left: 1.5rem;
+      }
+
+      &-textWrap {
+        width: 53%;
+        margin-left: 7%;
+      }
+
+      &-title {
+        width: 30%;
+
+        font-size: 2rem;
+        font-weight: 600;
+        padding-bottom: 1rem;
+        margin-bottom: 2.5rem;
+        border-bottom: 3px solid #6d9438;
+      }
+
+      &-text {
+        width: 90%;
+        font-family: "Montserrat";
+        font-size: 1.2rem;
+        line-height: 2rem;
+        padding-bottom: 2rem;
+        font-weight: 400;
+      }
+    }
+
+    &__container {
+      display: flex;
+      align-items: center;
+      padding: 2rem;
+      background-color: #f7f7f8;
+      padding-top: 3rem;
+      margin-top: 1rem;
+    }
+
+    &__img {
+      width: 40vw;
+      padding-left: 2rem;
+      border-radius: 15px;
+      transition: transform 0.2s;
+
+      &-textWrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: $Mercury;
+        margin-left: 2rem;
+        margin-top: 1.5rem;
+        padding: 1rem;
+        border-left: 5px solid #6d9438;
+      }
+
+      &-text {
+        margin: 0 0;
+        padding-left: 1rem;
+        font-size: 0.5rem;
+      }
+    }
+
+    &__text {
+      width: 50%;
+      padding-left: 1rem;
+      font-size: 0.6rem;
+      line-height: 1.5rem;
+    }
+  }
+  .mission__img:hover {
+    transform: scale(1.05);
+  }
+}
+
+@include bkp.large {
+  .mission {
+    padding: 0 2rem;
+    font-family: "Montserrat";
+
+    &__hero {
+      width: 100%;
+      height: 650px;
+      color: white;
+      padding: 3.5rem;
+      background-image: linear-gradient(
+          to bottom,
+          rgba(50, 50, 50, 0.8),
+          rgba(50, 50, 50, 0.8)
+        ),
+        url(../../assets//images//missionhero.jpeg);
+      background-position: center;
+      background-size: cover;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+
+      &-numberTitle {
+        display: flex;
+        font-size: 3rem;
+        font-weight: 600;
+        color: #c3a109;
+      }
+
+      &-numberText {
+        font-size: 1.2rem;
+      }
+
+      &-wrap {
+        width: 30%;
+        padding-left: 5rem;
+      }
+
+      &-textWrap {
+        width: 55%;
+      }
+
+      &-title {
+        width: 30%;
+        padding-top: 5rem;
+        font-size: 3rem;
+        font-weight: 600;
+        padding-bottom: 1rem;
+        margin-bottom: 2.5rem;
+        border-bottom: 3px solid #6d9438;
+      }
+
+      &-text {
+        width: 90%;
+        font-family: "Montserrat";
+        font-size: 1.8rem;
+        line-height: 3rem;
+        padding-bottom: 2.5rem;
+        font-weight: 400;
+      }
+    }
+
+    &__container {
+      display: flex;
+      align-items: center;
+      padding: 2rem;
+      background-color: #f7f7f8;
+      padding-top: 3rem;
+      margin-top: 1rem;
+    }
+
+    &__img {
+      width: 40vw;
+      padding-left: 2rem;
+      border-radius: 15px;
+      transition: transform 0.2s;
+
+      &-textWrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: $Mercury;
+        margin-left: 2rem;
+        margin-top: 1.5rem;
+        padding: 1rem;
+        border-left: 5px solid #6d9438;
+      }
+
+      &-text {
+        margin: 0 0;
+        padding-left: 1 rem;
+      }
+    }
+
+    &__text {
+      width: 50%;
+      padding-left: 5rem;
+      font-size: 1.5rem;
+      line-height: 3rem;
+    }
+  }
+
+  .mission__img:hover {
+    transform: scale(1.05);
+  }
+}

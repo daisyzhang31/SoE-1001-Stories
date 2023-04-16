@@ -1,0 +1,15 @@
+@use "./styles/partials/fonts" as *;
+
+html,
+body {
+  margin: 0;
+   font-family: "Montserrat";
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}

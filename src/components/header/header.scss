@@ -1,0 +1,362 @@
+@use "../../styles/partials/colors" as *;
+@use "../../styles/partials/fonts" as *;
+@use "../../styles/partials/breakpoints" as bkp;
+
+@include bkp.small {
+  .headbanner {
+    background-color: $Alabaster;
+    display: flex;
+    padding: 1rem 1rem 0 1rem;
+    justify-content: space-between;
+    margin-bottom: 0.2rem;
+
+    &__logo {
+      display: flex;
+      width: 280px;
+      padding-right: 3rem;
+
+      margin-bottom: 0.5rem;
+
+      &-SoE {
+        max-width: 6rem;
+        max-height: 2rem;
+      }
+
+      &-Stories {
+        max-width: 3rem;
+        max-height: 2rem;
+        position: relative;
+        top: 4px;
+      }
+    }
+
+    &__menuBar {
+      max-width: 2rem;
+      max-height: 1rem;
+      position: relative;
+      top: 8px;
+    }
+
+    &__nav-Tablet {
+      display: none;
+    }
+
+    &__nav {
+      display: none;
+    }
+
+    &__dropdown {
+      display: flex;
+      justify-content: space-between;
+      background-color: $Alabaster;
+      margin-bottom: 0.5rem;
+      padding-right: 3rem;
+    }
+
+    &__subTitle-link {
+      text-decoration: none;
+    }
+
+    &__dropdown-content {
+      display: none;
+
+      &-wrap {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+
+    &__title {
+      color: #7a7e7a;
+
+      font-size: 0.9rem;
+
+      &-img {
+        max-width: 1.2rem;
+        max-height: 1.2rem;
+        position: relative;
+        top: 6px;
+      }
+      &-link {
+        text-decoration: none;
+        padding: 0.5rem 2rem;
+        margin-bottom: 0.5rem;
+        background-color: $Alabaster;
+        color: #7a7e7a;
+
+        font-size: 0.9rem;
+      }
+
+      &-R {
+        color: #7a7e7a;
+        padding: 0.5rem 2rem;
+        font-size: 0.9rem;
+      }
+    }
+
+    &__subTitle {
+      padding: 0.5rem 2rem;
+    }
+
+    &__subTitle-link {
+      margin-bottom: 0.5rem;
+      color: #7a7e7a;
+      background-color: $Alabaster;
+      font-size: 0.9rem;
+    }
+
+    &__wrap {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  .headbanner__title-link.stories {
+    padding-left: 0 !important;
+  }
+
+  .headbanner__title-link:hover{
+    background-color: $Mercury;
+  }
+}
+
+@include bkp.medium {
+  .headbanner {
+    background-color: $Alabaster;
+    display: flex;
+    padding: 2rem 2rem 0 2rem;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+
+    &__logo {
+      display: flex;
+      width: 280px;
+      justify-content: space-between;
+      padding-bottom: 1rem;
+      margin-bottom: 0.5rem;
+
+      &-SoE {
+        max-width: 12rem;
+        max-height: 6rem;
+      }
+
+      &-Stories {
+        max-width: 5rem;
+        max-height: 3rem;
+        position: relative;
+        top: 12px;
+      }
+    }
+
+    &__menuBar {
+      max-width: 4rem;
+      max-height: 2.5rem;
+      position: relative;
+      top: 8px;
+    }
+
+    &__nav-Tablet {
+      display: none;
+    }
+
+    &__dropdown {
+      display: flex;
+      justify-content: space-between;
+      background-color: $Alabaster;
+      margin-bottom: 0.5rem;
+      padding-right: 3rem;
+    }
+
+    &__subTitle-link {
+      text-decoration: none;
+    }
+
+    &__dropdown-content {
+      display: none;
+
+      &-wrap {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+
+    &__title {
+      color: #7a7e7a;
+      font-size: 1.1rem;
+
+      &-img {
+        max-width: 1.2rem;
+        max-height: 1.2rem;
+        position: relative;
+        top: 6px;
+      }
+      &-link {
+        text-decoration: none;
+        padding: 0.5rem 2rem;
+        margin-bottom: 0.5rem;
+        background-color: $Alabaster;
+        color: #7a7e7a;
+
+        font-size: 0.9rem;
+      }
+
+      &-R {
+        color: #7a7e7a;
+        padding: 0.5rem 2rem;
+        font-size: 1.1rem;
+      }
+    }
+
+    &__subTitle {
+      padding: 0.5rem 2rem;
+    }
+
+    &__subTitle-link {
+      margin-bottom: 0.5rem;
+      color: #7a7e7a;
+      background-color: $Alabaster;
+      font-size: 0.9rem;
+    }
+
+    &__nav {
+      display: none;
+    }
+
+    &__wrap {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  .headbanner__title-link.stories {
+    padding-left: 0rem !important;
+       color: #7a7e7a;
+  }
+
+}
+
+@include bkp.large {
+  .headbanner {
+    background-color: $Alabaster;
+    display: flex;
+    padding-top: 2rem;
+    flex-direction: column;
+
+    &__logo {
+      display: flex;
+      width: 480px;
+      justify-content: space-between;
+      padding-left: 4rem;
+      padding-bottom: 1rem;
+
+      &-SoE {
+        max-width: 20rem;
+        max-height: 8rem;
+      }
+
+      &-Stories {
+        max-width: 8rem;
+        max-height: 5rem;
+        position: relative;
+        top: 20px;
+      }
+    }
+
+    &__menuBar {
+      display: none;
+    }
+
+    &__nav-Tablet {
+      display: none;
+    }
+
+    &__nav {
+      display: flex;
+      justify-content: space-evenly;
+    }
+
+    &__dropdown {
+      position: relative;
+      display: inline-block;
+      color: #7a7e7a;
+      padding-top: 1rem;
+      text-decoration: none;
+
+      &-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+      }
+    }
+
+    &__title {
+      font-size: 1.2rem;
+      font-weight: 400;
+      color: #7a7e7a;
+      font-family: "Montserrat";
+      padding: 1rem 0;
+      margin-bottom: 0.8rem;
+      text-decoration: none;
+    }
+
+    &__subTitle {
+      font-size: 1.1rem;
+      color: $textBlack;
+      font-family: "Montserrat";
+
+      &-link {
+        text-decoration: none;
+      }
+    }
+
+    &__dropbtn {
+      font-size: 1.2rem;
+      font-family: "Montserrat";
+      color: #7a7e7a;
+    }
+  }
+
+  .headbanner__dropdown-content .headbanner__subTitle {
+    color: black;
+    padding: 20px 16px;
+    text-decoration: none;
+    display: block;
+    width: 200px;
+  }
+
+  .headbanner__dropdown-content .headbanner__subTitle:hover {
+    background-color: #ddd;
+  }
+
+  .headbanner__dropdown:hover .headbanner__dropdown-content {
+    display: block;
+  }
+  .headbanner__dropdown:hover .headbanner__dropbtn {
+    border-bottom: 3px solid #3e8e41;
+  }
+
+  .headbanner__title.donate {
+    background-color: #356723;
+    width: 11%;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+  }
+
+  .headbanner__title.donate:hover {
+    background-color: #1c4d0a;
+  }
+
+  .headbanner__title:hover {
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+
+  .headbanner__dropbtn:hover {
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+}

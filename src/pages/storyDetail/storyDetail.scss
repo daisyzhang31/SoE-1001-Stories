@@ -1,0 +1,211 @@
+@use "../../styles/partials/colors" as *;
+@use "../../styles/partials/fonts" as *;
+
+.storybook {
+  display: flex;
+  padding: 2rem 3rem 1rem 3rem;
+  font-family: "Montserrat";
+
+  &__intro {
+    padding-top: 6rem;
+    padding-left: 2rem;
+
+    &-name {
+      font-size: 2.5rem;
+      font-weight: 600;
+      color: #1c4804;
+    }
+
+    &-author {
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
+
+    &-illustrator {
+      font-size: 1.5rem;
+    }
+
+    &-region {
+      font-size: 1.2rem;
+    }
+  }
+
+  &__comment {
+    margin: 0 3rem;
+    margin-bottom: 1rem;
+    background-color: #e8ede6;
+    border-radius: 35px;
+  }
+}
+
+.commentform {
+  padding: 2rem 0 1rem 0;
+  margin-top: 2rem;
+
+  &__head {
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 9rem;
+    padding-bottom: 2.25rem;
+  }
+
+  &__container {
+    display: flex;
+    justify-content: normal;
+    border-bottom: 1px solid $Mercury;
+    margin: 0 9%;
+  }
+
+  &__picture {
+    background-image: url(../../assets/icons/volunteer.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    background-color: white;
+    width: 30%;
+    height: auto;
+    max-width: 4rem;
+    max-height: 4rem;
+    margin-top: 1.5rem;
+    margin-right: 1rem;
+  }
+
+  &__name {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1rem;
+    &--text {
+      font-size: 0.9rem;
+      color: silver;
+      font-weight: 400;
+      padding-bottom: 4px;
+    }
+  }
+  &__comment {
+    display: flex;
+    flex-direction: column;
+
+    &--text {
+      font-size: 0.9rem;
+      color: silver;
+      font-weight: 400;
+      padding-bottom: 4px;
+    }
+  }
+
+  &__button {
+    font-size: 1rem;
+    min-width: 150px;
+    height: 40px;
+    color: white;
+    margin: 1.2rem 0;
+    border-radius: 4px;
+    border: transparent;
+    background-color: #547f3c;
+  }
+
+  &__button:hover {
+    background-color: #3b592a;
+  }
+
+  .buttonright {
+    text-align: right;
+  }
+
+  .commentformone {
+    width: 90%;
+  }
+
+  input {
+    background: $Alabaster;
+    border: 1px solid $Mercury;
+    border-radius: 4px;
+    min-height: 3rem;
+    padding: 16px;
+  }
+
+  input:focus {
+    outline: none !important;
+    border-color: silver;
+  }
+
+  input::placeholder {
+    color: silver;
+  }
+
+  textarea {
+    background: $Alabaster;
+    width: 100%;
+    height: 90px;
+    border-radius: 4px;
+    border: 1px solid $Mercury;
+    padding: 16px;
+  }
+  textarea::placeholder {
+    color: silver;
+  }
+
+  textarea:focus {
+    outline: none !important;
+    border-color: silver;
+  }
+}
+
+.comments {
+  padding: 0 5rem ;
+  font-family: "Montserrat";
+
+  &__detail {
+    border-bottom: 1px solid $Mercury;
+    padding-top: 1.5rem;
+    border-top: 1px solid $Mercury;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  &__picture {
+    background-image: url("../../assets/icons/avatar.png");
+    background-color: $Mercury;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    width: 30%;
+    height: auto;
+    max-width: 4rem;
+    max-height: 4rem;
+    margin-right: 1rem;
+  }
+
+  &__text {
+    width: 82%;
+    display: flex;
+    flex-direction: column;
+
+    &--container {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &--name {
+      color: #1c4804;
+      font-size: 1.5rem;
+      line-height: 2rem;
+      font-weight: 600;
+    }
+
+    &--time {
+      color: silver;
+      font-size: 1.3rem;
+      line-height: 1.125rem;
+      font-weight: 400;
+    }
+
+    &--content {
+      line-height: 2.5rem;
+      font-weight: 400;
+      font-size: 1.5rem;
+      padding: 1rem 0;
+    }
+  }
+}

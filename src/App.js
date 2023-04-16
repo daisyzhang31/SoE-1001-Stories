@@ -1,51 +1,41 @@
-
+import "./App.scss";
+import Header from "./components/header/Header";
+import Footer from "./components/footer/Footer";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+// pages
+import Home from "./pages/home/Home";
+import Mission from "./pages/Mission/Mission";
+import Stories from "./pages/Stories/Stories";
+import StoryDetail from "./pages/storyDetail/StoryDetail";
+import Volunteer from "./pages/Volunteer/Volunteer";
+import Contact from "./pages/contact/Contact";
+import Outreach from "./pages/Outreach/Outreach";
+import Team from "./pages/Team/Team";
+import StoryTeller from "./pages/Storyteller/StoryTeller";
 
 
 function App() {
-  return (
-    <>
-      <header className="header">
-        <div className="header__links header__links--left">
-          <div className="header__logo">Cohort Directory</div>
-        </div>
-        <nav className="header__links header__links--right">
-          <a href="/">Home</a>
-        </nav>
-      </header>
-      <section className="student-list">
-        <div className="student">
-          <div className="student__content">
-            <img
-              className="student__image"
-              src="https://img.icons8.com/ios/100/000000/test-account.png"
-              alt="Test Student Account Image"
-            />
-          </div>
-          <h4 className="student__title">Student Name</h4>
-        </div>
-        <div className="student">
-          <div className="student__content">
-            <img
-              className="student__image"
-              src="https://img.icons8.com/ios/100/000000/test-account.png"
-              alt="Test Student Account Image"
-            />
-          </div>
-          <h4 className="student__title">Student Name</h4>
-        </div>
-        <div className="student">
-          <div className="student__content">
-            <img
-              className="student__image"
-              src="https://img.icons8.com/ios/100/000000/test-account.png"
-              alt="Test Student Account Image"
-            />
-          </div>
-          <h4 className="student__title">Student Name</h4>
-        </div>
-      </section>
-    </>
-  );
+
+
+   http: return (
+     <>
+       <BrowserRouter>
+         <Header />
+         <Routes>
+           <Route path="/" element={<Home />} />
+           <Route path="/mission" element={<Mission />} />
+           <Route path="/stories" element={<Stories />} />
+           <Route path="/stories/:id" element={<StoryDetail />} />
+           <Route path="/volunteer" element={<Volunteer />} />
+           <Route path="/storyteller" element={<StoryTeller />} />
+           <Route path="/contact" element={<Contact />} />
+           <Route path="/outreach" element={<Outreach />} />
+           <Route path="/team" element={<Team />} />
+         </Routes>
+         <Footer />
+       </BrowserRouter>
+     </>
+   );
 }
 
 export default App;

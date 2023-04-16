@@ -1,0 +1,64 @@
+@use "../../styles/partials/colors" as *;
+@use "../../styles/partials/fonts" as *;
+@use "../../styles/partials/breakpoints" as bkp;
+
+.w-100 {
+  height: auto;
+}
+
+
+@include bkp.small{
+ .homeHero__title {
+  font-family: "Montserrat";
+  font-size: 1rem;
+}
+
+.homeHero__text {
+  font-family: "Montserrat";
+  font-size: 0.5rem;
+    line-height: 0.7rem;
+  margin-bottom: 0 !important;
+}
+
+.carousel-caption {
+  padding-bottom: 1rem !important;
+}
+
+}
+
+@include bkp.medium{
+
+  .homeHero__title {
+  font-family: "Montserrat";
+  font-size: 2rem;
+}
+
+.homeHero__text {
+  font-family: "Montserrat";
+  font-size: 1rem;
+}
+
+.carousel-caption {
+  padding-bottom: 1.25rem !important;
+}
+}
+
+
+@include bkp.large{
+.homeHero__title {
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+}
+
+.homeHero__text {
+  font-family: "Montserrat";
+  font-size: 1.2rem;
+}
+
+.carousel-control-prev {
+  width: 8% !important;
+}
+
+.carousel-caption {
+  padding-bottom: 4rem !important;
+}}

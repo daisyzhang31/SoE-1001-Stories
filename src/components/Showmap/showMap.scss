@@ -1,0 +1,347 @@
+@use "../../styles/partials/colors" as *;
+@use "../../styles/partials/fonts" as *;
+@use "../../styles/partials/breakpoints" as bkp;
+
+
+
+@include  bkp.small{
+.ShowMap {
+  background-color: #f7f7f8;
+  padding: 2rem 1rem;
+  font-family: "Montserrat";
+
+  &__title {
+    text-align: center;
+    margin: 0px auto;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  &__numbers {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-bottom: 1rem;
+
+    &-num {
+      font-size: 1.2rem;
+    }
+
+    &-text {
+      font-size: 0.8rem;
+      margin-bottom: 0;
+    }
+  }
+
+  &__img {
+    width: 100%;
+    position: relative;
+
+    &-world {
+      width: 100%;
+    }
+
+    &-icon {
+      width: 25px;
+      height: 30px;
+    }
+  }
+
+  .ShowMap__img-icon.One {
+    position: absolute;
+    top: 34%;
+    right: 16%;
+  }
+
+  .ShowMap__img-icon.Two {
+    position: absolute;
+    top: 37%;
+    right: 27%;
+  }
+}
+
+.volunteers {
+  width: 100%;
+  height: 300px;
+  color: white;
+  padding: 1rem;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(50, 50, 50, 0.8),
+      rgba(50, 50, 50, 0.8)
+    ),
+    url(../../assets/images/volunteer.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+   font-family: "Montserrat";
+
+  &__title{
+    padding-top: 2rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid #6d9438;
+  }
+
+  &__text{
+    width: 70%;
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  &__buttons{
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    padding-top: 1rem;
+  }
+
+  &__button{
+    height: 40px;
+    width: 120px;
+     font-family: "Montserrat";
+    background: rgba(254,201,107,0);
+    border: 2px solid white;
+    color: white;
+    font-weight: 400;
+    font-size: 0.5rem;
+    border-radius: 15px
+  }
+}
+}
+
+@include  bkp.medium{
+.ShowMap {
+  background-color: #f7f7f8;
+  padding: 2rem 1rem;
+  font-family: "Montserrat";
+
+  &__title {
+    text-align: center;
+    margin: 0px auto;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  &__numbers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 1rem;
+
+    &-num {
+      font-size: 1.2rem;
+    }
+
+    &-text {
+      font-size: 0.8rem;
+      margin-bottom: 0;
+    }
+  }
+
+  &__img {
+    width: 100%;
+    position: relative;
+
+    &-world {
+      width: 100%;
+    }
+
+    &-icon {
+      width: 25px;
+      height: 30px;
+    }
+  }
+
+  .ShowMap__img-icon.One {
+    position: absolute;
+    top: 34%;
+    right: 16%;
+  }
+
+  .ShowMap__img-icon.Two {
+    position: absolute;
+    top: 37%;
+    right: 27%;
+  }
+}
+
+.volunteers {
+  width: 100%;
+  height: 400px;
+  color: white;
+  padding: 2rem;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(50, 50, 50, 0.8),
+      rgba(50, 50, 50, 0.8)
+    ),
+    url(../../assets/images/volunteer.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+   font-family: "Montserrat";
+
+  &__title{
+    padding-top: 3rem;
+    font-size: 2rem;
+    font-weight: 600;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid #6d9438;
+  }
+
+  &__text{
+    width: 70%;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 0;
+  }
+
+  &__buttons{
+    display: flex;
+    justify-content: space-evenly;
+    width: 700px;
+    padding-top: 3rem;
+  }
+
+  &__button{
+    height: 50px;
+    width: 120px;
+     font-family: "Montserrat";
+    background: rgba(254,201,107,0);
+    border: 2px solid white;
+    color: white;
+    font-weight: 400;
+    font-size: 0.8rem;
+    border-radius: 15px
+  }
+}
+
+}
+
+
+
+
+@include bkp.large{
+.ShowMap {
+  background-color: #f7f7f8;
+  padding: 5rem 3rem;
+  font-family: "Montserrat";
+
+  &__title {
+    text-align: center;
+    margin: 0px auto;
+    padding-bottom: 1rem;
+    font-size: 3.5rem;
+    font-weight: 600;
+  }
+
+  &__numbers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 2.5rem;
+
+    &-num {
+      font-size: 3rem;
+    }
+
+    &-text {
+      font-size: 1.2rem;
+    }
+  }
+
+  &__img {
+    width: 100%;
+    position: relative;
+
+    &-world {
+      width: 100%;
+    }
+
+    &-icon {
+      width: 25px;
+      height: 30px;
+    }
+  }
+
+  .ShowMap__img-icon.One {
+    position: absolute;
+    top: 34%;
+    right: 16%;
+  }
+
+  .ShowMap__img-icon.Two {
+    position: absolute;
+    top: 37%;
+    right: 27%;
+  }
+}
+
+.volunteers {
+  width: 100%;
+  height: 650px;
+  color: white;
+  padding: 3.5rem;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(50, 50, 50, 0.8),
+      rgba(50, 50, 50, 0.8)
+    ),
+    url(../../assets/images/volunteer.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+   font-family: "Montserrat";
+
+  &__title{
+    padding-top: 5rem;
+    font-size: 3rem;
+    font-weight: 600;
+    padding-bottom: 1rem;
+    margin-bottom: 2.5rem;
+    border-bottom: 3px solid #6d9438;
+  }
+
+  &__text{
+    width: 70%;
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  &__buttons{
+    display: flex;
+    justify-content: space-evenly;
+    width: 700px;
+    padding-top: 3rem;
+  }
+
+  &__button{
+    height: 70px;
+    width: 190px;
+     font-family: "Montserrat";
+    background: rgba(254,201,107,0);
+    border: 2px solid white;
+    color: white;
+    font-weight: 400;
+    font-size: 1.2rem;
+    border-radius: 15px
+  }
+}
+
+}
+
+
+.volunteers__button:hover{
+color:#eaba1c;
+border-color: #eaba1c;
+}

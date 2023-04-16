@@ -1,0 +1,161 @@
+@use "../../styles/partials/colors" as *;
+@use "../../styles/partials/fonts" as *;
+@use "../../styles/partials/breakpoints" as bkp;
+
+
+@include bkp.small{
+.footer {
+  background-color: $Alabaster;
+  padding-top: 1rem;
+
+  &__text {
+    margin: auto;
+    width: 257px;
+    padding-bottom: 2rem;
+    color: $textBlack;
+    font-size: 0.6rem;
+  }
+}
+
+.footerpart__social {
+  display: flex;
+  padding: 1rem 1rem;
+  justify-content: space-between;
+
+  &-img {
+    max-width: 5rem;
+    max-height: 3rem;
+    position: relative;
+    top: 10px;
+  }
+}
+
+.footerpart__social-container {
+  width: 150px;
+}
+
+.footerpart__Social-instagram {
+  margin-right: 20px;
+  width: 25px;
+  height: 25px;
+  margin-top: 24px;
+}
+
+.footerpart__Social-facebook {
+  margin-right: 20px;
+  height: 25px;
+  width: 20px;
+  margin-top: 24px;
+}
+
+.footerpart__Social-twitter {
+  width: 25px;
+  height: 25px;
+  margin-top: 24px;
+}
+}
+
+@include bkp.medium{
+.footer {
+  background-color: $Alabaster;
+  padding-top: 1rem;
+
+  &__text {
+    margin: auto;
+    width: 257px;
+    padding-bottom: 2rem;
+    color: $textBlack;
+    font-size: 0.8rem;
+  }
+}
+
+.footerpart__social {
+  display: flex;
+  padding: 1rem 3rem;
+  justify-content: space-between;
+
+  &-img {
+    max-width: 5rem;
+    max-height: 3rem;
+    position: relative;
+    top:12px;
+
+  }
+}
+
+.footerpart__social-container {
+  height: 79px;
+}
+
+.footerpart__Social-instagram {
+  margin-right: 25px;
+  width: 25px;
+  height: 25px;
+  margin-top: 24px;
+}
+
+.footerpart__Social-facebook {
+  margin-right: 25px;
+  height: 25px;
+  width: 20px;
+      margin-top: 24px;
+}
+
+.footerpart__Social-twitter {
+  width: 25px;
+  height: 25px;
+      margin-top: 24px;
+}
+}
+
+
+
+
+@include bkp.large{
+.footer {
+  background-color: $Alabaster;
+  padding-top: 2rem;
+
+  &__text {
+    margin: auto;
+    width: 257px;
+    padding-bottom: 2rem;
+    color: $textBlack;
+  }
+}
+
+.footerpart__social {
+  display: flex;
+  padding: 1rem 5rem;
+  justify-content: space-between;
+
+  &-img {
+    max-width: 8rem;
+    max-height: 5rem;
+  }
+}
+
+.footerpart__social-container {
+  height: 79px;
+}
+
+.footerpart__Social-instagram {
+  margin-right: 45px;
+  width: 32px;
+  height: 33px;
+  margin-top: 24px;
+}
+
+.footerpart__Social-facebook {
+  margin-right: 45px;
+  height: 33px;
+  width: 20px;
+      margin-top: 24px;
+}
+
+.footerpart__Social-twitter {
+  width: 35px;
+  height: 33px;
+      margin-top: 24px;
+}
+}
