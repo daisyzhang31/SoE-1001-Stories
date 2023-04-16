@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/SoE-1001-Stories/static/css/main.d29ccf5c.css",
-    "main.js": "/SoE-1001-Stories/static/js/main.fadf3cc1.js",
+    "main.js": "/SoE-1001-Stories/static/js/main.b3a39cbd.js",
     "static/media/mission4.jpeg": "/SoE-1001-Stories/static/media/mission4.76d268065ee34e82e1bd.jpeg",
     "static/media/volunteerthree.png": "/SoE-1001-Stories/static/media/volunteerthree.2c1d30899c6b7fb00d1b.png",
     "static/media/homehero4.png": "/SoE-1001-Stories/static/media/homehero4.90ba674c9d85c5da276e.png",
@@ -39,10 +39,10 @@
     "static/media/error-24px.svg": "/SoE-1001-Stories/static/media/error-24px.eed74db22e59ad00c516d6ed6b40a8ce.svg",
     "static/media/close-24px.svg": "/SoE-1001-Stories/static/media/close-24px.4862ddd56a4234e7665b782ce3c8e4fb.svg",
     "main.d29ccf5c.css.map": "/SoE-1001-Stories/static/css/main.d29ccf5c.css.map",
-    "main.fadf3cc1.js.map": "/SoE-1001-Stories/static/js/main.fadf3cc1.js.map"
+    "main.b3a39cbd.js.map": "/SoE-1001-Stories/static/js/main.b3a39cbd.js.map"
   },
   "entrypoints": [
     "static/css/main.d29ccf5c.css",
-    "static/js/main.fadf3cc1.js"
+    "static/js/main.b3a39cbd.js"
   ]
 }
