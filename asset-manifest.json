@@ -1,10 +1,48 @@
 {
   "files": {
-    "main.js": "/SoE-1001-Stories/static/js/main.29f4c97e.js",
+    "main.css": "/SoE-1001-Stories/static/css/main.d29ccf5c.css",
+    "main.js": "/SoE-1001-Stories/static/js/main.fadf3cc1.js",
+    "static/media/mission4.jpeg": "/SoE-1001-Stories/static/media/mission4.76d268065ee34e82e1bd.jpeg",
+    "static/media/volunteerthree.png": "/SoE-1001-Stories/static/media/volunteerthree.2c1d30899c6b7fb00d1b.png",
+    "static/media/homehero4.png": "/SoE-1001-Stories/static/media/homehero4.90ba674c9d85c5da276e.png",
+    "static/media/storyTeller.png": "/SoE-1001-Stories/static/media/storyTeller.45d81bfc306bb980039a.png",
+    "static/media/homehero1.png": "/SoE-1001-Stories/static/media/homehero1.0061e7708f5d0008c677.png",
+    "static/media/homemap.png": "/SoE-1001-Stories/static/media/homemap.28113bf3169d16a3b186.png",
+    "static/media/homehero3.png": "/SoE-1001-Stories/static/media/homehero3.54b5765fd600d26b03e6.png",
+    "static/media/outreach3.png": "/SoE-1001-Stories/static/media/outreach3.971328eb91fe97e4c0b1.png",
+    "static/media/paul.png": "/SoE-1001-Stories/static/media/paul.4a53d8d9b8263b99f383.png",
+    "static/media/homehero2.png": "/SoE-1001-Stories/static/media/homehero2.4f473dad495c463397b9.png",
+    "static/media/outreach2.png": "/SoE-1001-Stories/static/media/outreach2.24feffa906a3195a0bb9.png",
+    "static/media/storyTellerPic.jpeg": "/SoE-1001-Stories/static/media/storyTellerPic.eb4c03f183f030b81367.jpeg",
+    "static/media/SoE-color-positive-transparent (clear-version) 2.png": "/SoE-1001-Stories/static/media/SoE-color-positive-transparent (clear-version) 2.490013b6da102b99e609.png",
+    "static/media/certificate.jpeg": "/SoE-1001-Stories/static/media/certificate.5dfb84696aabcc3dd4e3.jpeg",
+    "static/media/outreach.jpg": "/SoE-1001-Stories/static/media/outreach.f83b30ed898c62d827d7.jpg",
+    "static/media/contactone.jpeg": "/SoE-1001-Stories/static/media/contactone.0e878949b9e0a78a5359.jpeg",
+    "static/media/outreach_01.png": "/SoE-1001-Stories/static/media/outreach_01.df8b2a618c276261cd75.png",
+    "static/media/Montserrat-LightItalic.ttf": "/SoE-1001-Stories/static/media/Montserrat-LightItalic.57ae4565eaf9e1fc53ba.ttf",
+    "static/media/Montserrat-SemiBold.ttf": "/SoE-1001-Stories/static/media/Montserrat-SemiBold.d5e0cc788cba9ced1fb9.ttf",
+    "static/media/Montserrat-Bold.ttf": "/SoE-1001-Stories/static/media/Montserrat-Bold.2c155811b35513d5beaa.ttf",
+    "static/media/Montserrat-Light.ttf": "/SoE-1001-Stories/static/media/Montserrat-Light.6fcc9263a21be961d246.ttf",
+    "static/media/Montserrat-Regular.ttf": "/SoE-1001-Stories/static/media/Montserrat-Regular.ceb11275ab638627a643.ttf",
+    "static/media/volunteer.jpg": "/SoE-1001-Stories/static/media/volunteer.8757b258f5fdf20d931f.jpg",
+    "static/media/missionhero.jpeg": "/SoE-1001-Stories/static/media/missionhero.9a267332397d46a10b93.jpeg",
+    "static/media/books2.jpeg": "/SoE-1001-Stories/static/media/books2.75d4464c71eb607abbcc.jpeg",
+    "static/media/mission3.jpg": "/SoE-1001-Stories/static/media/mission3.fda8818a859262f38d53.jpg",
+    "static/media/homeintro.jpeg": "/SoE-1001-Stories/static/media/homeintro.bf98ef6d17db5ca8d796.jpeg",
+    "static/media/1001-1.jpeg": "/SoE-1001-Stories/static/media/1001-1.2cef222e62fb30892de5.jpeg",
+    "static/media/avatar.png": "/SoE-1001-Stories/static/media/avatar.03793bc8266af00852e9.png",
+    "static/media/mission2.jpg": "/SoE-1001-Stories/static/media/mission2.e40d54c319eba8ece374.jpg",
+    "static/media/book.png": "/SoE-1001-Stories/static/media/book.af7d62fe4f3b98296793.png",
+    "static/media/volunteer.png": "/SoE-1001-Stories/static/media/volunteer.8dda2c78c123fe3ed606.png",
+    "static/media/1001 Stories logo.png": "/SoE-1001-Stories/static/media/1001 Stories logo.df52fb9e0528c96e4310.png",
     "index.html": "/SoE-1001-Stories/index.html",
-    "main.29f4c97e.js.map": "/SoE-1001-Stories/static/js/main.29f4c97e.js.map"
+    "static/media/error-24px.svg": "/SoE-1001-Stories/static/media/error-24px.eed74db22e59ad00c516d6ed6b40a8ce.svg",
+    "static/media/close-24px.svg": "/SoE-1001-Stories/static/media/close-24px.4862ddd56a4234e7665b782ce3c8e4fb.svg",
+    "main.d29ccf5c.css.map": "/SoE-1001-Stories/static/css/main.d29ccf5c.css.map",
+    "main.fadf3cc1.js.map": "/SoE-1001-Stories/static/js/main.fadf3cc1.js.map"
   },
   "entrypoints": [
-    "static/js/main.29f4c97e.js"
+    "static/css/main.d29ccf5c.css",
+    "static/js/main.fadf3cc1.js"
   ]
 }
