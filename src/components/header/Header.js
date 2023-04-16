@@ -45,7 +45,7 @@ function Header() {
   return (
     <>
       <section className="headbanner">
-        <Link to="/">
+        <Link to="/SoE-1001-Stories">
           <div className="headbanner__logo">
             <img className="headbanner__logo-SoE" src={SoE} alt="SoE-Logo" />
             <img
@@ -65,7 +65,10 @@ function Header() {
 
         <div className="headbanner__nav">
           <div className="headbanner__dropdown">
-            <Link className="headbanner__subTitle-link" to={"/"}>
+            <Link
+              className="headbanner__subTitle-link"
+              to={"/SoE-1001-Stories"}
+            >
               <span className="headbanner__dropbtn">ABOUT 1001 STORIES</span>
             </Link>
             <div className="headbanner__dropdown-content">
@@ -110,7 +113,7 @@ function Header() {
 
       <div className="headbanner__nav-Tablet" id="nav-Tablet">
         <div className="headbanner__dropdown">
-          <Link className="headbanner__title-link" to={"/"}>
+          <Link className="headbanner__title-link" to={"/SoE-1001-Stories"}>
             <span className="headbanner__title">ABOUT 1001 STORIES</span>
           </Link>
           <img
