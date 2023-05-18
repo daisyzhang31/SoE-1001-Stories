@@ -3,13 +3,15 @@ import books from "../../assets/images/books2.jpeg";
 import bookicon from "../../assets/icons/book.png";
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
-import axios from "axios";
+// import axios from "axios";
 
 
 function Stories(){
   // get stories by API
 
-  const SEARCH_URL = `http://localhost:8080/stories`;
+
+
+  // const SEARCH_URL = `http://localhost:8080/stories`;
   const [stories, setStories] = useState([]);
 
   useEffect(() => {

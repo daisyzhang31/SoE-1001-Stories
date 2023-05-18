@@ -65,7 +65,7 @@ function Team(){
             </div>
             <div className="team__executive">
               <p className="team__executive-name">Krishna Bian</p>
-              <p className="team__executive-name-title">Head of 1001 Stories China</p>
+              <p className="team__executive-name-title">Director of 1001 Stories China</p>
               <p className="team__executive-info">
                 Krishna used to focus on youth and family excursions in Beijing,
                 China. He has led thousands of families participated in camping,

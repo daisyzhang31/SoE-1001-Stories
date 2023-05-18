@@ -1,0 +1,181 @@
+[
+  {
+    "id": "Colombia001",
+    "region": "Colombia",
+    "name": "My Dreams",
+    "image": "MyDreams.png",
+    "author": "Cariola Bonivento",
+    "illustrator": "Camilo Conde",
+    "address": "http://www.blurb.com/bookshare/app/index.html?bookId=6951206"
+  },
+
+  {
+    "id": "Colombia002",
+    "region": "Colombia",
+    "name": "Dreams Of A Majayut",
+    "image": "DreamsOfAMajayut.png",
+    "author": "Yamilson Pachon Mengual",
+    "illustrator": "Manuela Garcia Aldana",
+    "address": "http://www.blurb.com/bookshare/app/index.html?bookId=6951231"
+  },
+
+  {
+    "id": "Colombia003",
+    "region": "Colombia",
+    "name": "Mi Vida",
+    "image": "MyVida.png",
+    "author": "Abraham Bonivento",
+    "illustrator": "John Quiroga",
+    "address": "https://www.blurb.ca/bookshare/app/index.html?bookId=6956269"
+  },
+
+  {
+    "id": "Mexico001",
+    "region": "Mexico",
+    "name": "My Life",
+    "image": "MyLife.png",
+    "author": "Mariana Reyes Tapia",
+    "illustrator": "Angel Pahuamba",
+    "address": "https://www.blurb.ca/bookshare/app/index.html?bookId=6918302"
+  },
+
+  {
+    "id": "Mexico 002",
+    "region": "Mexico",
+    "name": "Teacher Maria",
+    "image": "TeacherMaria.png",
+    "author": "Zuri Sarai Alejo Santos",
+    "illustrator": "Pedro Davalos",
+    "address": "https://www.blurb.ca/bookshare/app/index.html?bookId=6918332"
+  },
+
+  {
+    "id": "Mexico 003",
+    "region": "Mexico",
+    "name": "Ceclia",
+    "image": "Ceclia.png",
+    "author": "Jessica Yazmin Soria Porres Soy de Uruapan",
+    "illustrator": "Mizraim Cardenas",
+    "address": "https://www.blurb.ca/bookshare/app/index.html?bookId=6918371"
+  },
+
+  {
+    "id": "Tanzania 001",
+    "region": "Tanzania",
+    "name": "The Story Of A Thief",
+    "image": "TheStoryOfAThief.png",
+    "author": "Shaban Mnadume Majali",
+    "illustrator": "En jee Kong & Grace Hyunkyung",
+    "address": "https://www.blurb.ca/bookshare/app/index.html?bookId=4706087"
+  },
+
+  {
+    "id": "Tanzania002",
+    "region": "Tanzania",
+    "name": "Greedy Fisherman",
+    "image": "GreedyFisherman.png",
+    "author": "Elton John",
+    "illustrator": "Enju Kim",
+    "address": "https://www.blurb.ca/bookshare/app/index.html?bookId=7125585"
+  },
+
+  {
+    "id": "Tanzania 003",
+    "region": "Tanzania",
+    "name": "The Three Boys",
+    "image": "TheThreeBoys.png",
+    "author": "Abdusalam Mohame",
+    "illustrator": "Jiai Kim",
+    "address": "https://www.blurb.ca/bookshare/app/index.html?bookId=7125601"
+  },
+
+  {
+    "id": "SouthKorea001",
+    "region": "South Korea",
+    "name": "Chaeyoung’s Footsteps",
+    "image": "ChaeyoungsFootsteps.png",
+    "author": "Chaeyoung Lee",
+    "illustrator": "Eunchae Hong",
+    "address": "https://www.blurb.ca/bookshare/app/index.html?bookId=9403741"
+  },
+
+  {
+    "id": "SouthKorea002",
+    "region": "South Korea",
+    "name": "My New Family",
+    "image": "MyNewFamily.png",
+    "author": "Isoo Jeon",
+    "illustrator": "Isoo Jeon",
+    "address": "https://www.blurb.ca/bookshare/app/index.html?bookId=9028396"
+  },
+
+  {
+    "id": "SouthKorea003",
+    "region": "South Korea",
+    "name": "The Little Alligate Tako",
+    "image": "TheLittleAlligateTako.png",
+    "author": "Isoo Jeon",
+    "illustrator": "Isoo Jeon",
+    "address": "https://www.blurb.ca/bookshare/app/index.html?bookId=9027910"
+  },
+
+  {
+    "id": "SouthKorea004",
+    "region": "South Korea",
+    "name": "Walking Wolves",
+    "image": "WalkingWolves.png",
+    "author": "Isoo Jeon",
+    "illustrator": "Isoo Jeon",
+    "address": "https://www.blurb.ca/bookshare/app/index.html?bookId=9023716"
+  },
+
+  {
+    "id": "Ghana001",
+    "region": "Ghana",
+    "name": "the Heartless Village",
+    "image": "theHeartlessVillage.png",
+    "author": "Abraham Bonivento",
+    "illustrator": "Stratford School",
+    "address": "https://www.blurb.ca/bookshare/app/index.html?bookId=8763622"
+  },
+
+  {
+    "id": "Ghana002",
+    "region": "Ghana",
+    "name": "Ekua in the Kitchen",
+    "image": "EkuaInTheKitchen.png",
+    "author": "Ernest Yeboah",
+    "illustrator": "Stratford School",
+    "address": "https://www.blurb.ca/bookshare/app/index.html?bookId=8748510"
+  },
+
+  {
+    "id": "Ghana003",
+    "region": "Ghana",
+    "name": "The Result Of Kindness",
+    "image": "TheResultOfKindness.png",
+    "author": "Comfort Boatemaah",
+    "illustrator": "Stratford School",
+    "address": "https://www.blurb.ca/bookshare/app/index.html?bookId=8737587"
+  },
+
+  {
+    "id": "Ghana004",
+    "region": "Ghana",
+    "name": "The Banished King",
+    "image": "TheBanishedKing.png",
+    "author": "Harold Ayiku Ocansey",
+    "illustrator": "Stratford School",
+    "address": "https://www.blurb.ca/bookshare/app/index.html?bookId=8723800"
+  },
+
+  {
+    "id": "India001",
+    "region": "India",
+    "name": "Hardwork is the Key to Success",
+    "image": "HardworkIsTheKeyToSuccess.png",
+    "author": "Abraham Bonivento",
+    "illustrator": "Stratford School",
+    "address": "https://www.blurb.ca/bookshare/app/index.html?bookId=8754861"
+  }
+]
